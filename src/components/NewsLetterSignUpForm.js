@@ -1,5 +1,6 @@
 import React from 'react'
 import SignUpIllustration from './images/illustration-sign-up-desktop.svg'
+import '../styles/news_letter_signup_form.css'
 
 const NewsLetterSignUpForm = () => {
   return (
