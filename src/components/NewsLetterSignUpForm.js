@@ -5,6 +5,7 @@ import '../styles/news_letter_signup_form.css'
 const NewsLetterSignUpForm = () => {
   return (
     <main>
+        <div className="container">
         <div className="main-container">
             <div className="first-container">
                 <p>Stay Updated!</p>
@@ -25,6 +26,8 @@ const NewsLetterSignUpForm = () => {
                 <img src={SignUpIllustration} alt="sign up illustration" />
             </div>
         </div>
+        </div>
+        
     </main>
   )
 }
