@@ -17,7 +17,8 @@ const NewsLetterSignUpForm = () => {
                 </ul>
                 <div className="email-input">
                     <label htmlFor="email">Email address</label>
-                    <input type="email" id='email' name='email' />
+                    <br />
+                    <input type="email" id='email' name='email' placeholder='mark@company.com' />
                 </div>
                 <button className='subscribe-button'>Subscribe to monthly newsletter</button>
 
