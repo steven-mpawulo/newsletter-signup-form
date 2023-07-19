@@ -1,12 +1,13 @@
 .container {
     background-color: hsl(234, 29%, 20%);
     height: 100vh;
+    padding: 10%;
 }
 .main-container {
     width: 60%;
-    height: 70%;
+    height: 80%;
     display: flex;
-    margin: 0 auto;
+    margin: auto;
     background-color: hsl(0, 0%, 100%);
     padding: 40px;
     border-radius: 20px;

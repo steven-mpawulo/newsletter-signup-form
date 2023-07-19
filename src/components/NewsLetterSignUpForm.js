@@ -1,15 +1,18 @@
-import React from 'react'
+
 import SignUpIllustration from './images/illustration-sign-up-desktop.svg'
 import '../styles/news_letter_signup_form.css'
 
 const NewsLetterSignUpForm = () => {
+
   return (
     <main>
         <div className="container">
         <div className="main-container">
             <div className="first-container">
                 <p className='stay-updated-text'>Stay updated!</p>
-                <p className='product-managers-text'>Join 60,000 product managers receiving monthly updates on:</p>
+                <p className='product-managers-text'>Join 60,000 product managers receiving monthly updates on:{
+                
+                }</p>
                 <ul>
                     <li><span>Product discovery and building what matters</span></li>
                     <li><span>Measuring to ensure updates are a success</span></li>
