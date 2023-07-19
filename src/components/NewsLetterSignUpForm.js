@@ -8,8 +8,8 @@ const NewsLetterSignUpForm = () => {
         <div className="container">
         <div className="main-container">
             <div className="first-container">
-                <p>Stay Updated!</p>
-                <p>Join 60,000 product managers receiving monthly updates on:</p>
+                <p className='stay-updated-text'>Stay Updated!</p>
+                <p className='product-managers-text'>Join 60,000 product managers receiving monthly updates on:</p>
                 <ul>
                     <li>Product discovery and building what matters</li>
                     <li>Measuring to ensure updates are a success</li>
