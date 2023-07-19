@@ -11,9 +11,9 @@ const NewsLetterSignUpForm = () => {
                 <p className='stay-updated-text'>Stay updated!</p>
                 <p className='product-managers-text'>Join 60,000 product managers receiving monthly updates on:</p>
                 <ul>
-                    <li>Product discovery and building what matters</li>
-                    <li>Measuring to ensure updates are a success</li>
-                    <li>And much more!</li>
+                    <li><span>Product discovery and building what matters</span></li>
+                    <li><span>Measuring to ensure updates are a success</span></li>
+                    <li><span>And much more!</span></li>
                 </ul>
                 <div className="email-input">
                     <label htmlFor="email">Email address</label>
