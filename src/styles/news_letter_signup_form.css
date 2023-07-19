@@ -2,11 +2,13 @@
     background-color: hsl(234, 29%, 20%);
 }
 .main-container {
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 50%;
     display: flex;
     margin: 0 auto;
     background-color: hsl(0, 0%, 100%);
+    padding: 40px;
+    border-radius: 20px;
 
 }
 
