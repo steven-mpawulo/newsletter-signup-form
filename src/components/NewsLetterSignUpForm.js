@@ -1,4 +1,5 @@
 import React from 'react'
+import SignUpIllustration from './images/illustration-sign-up-desktop.svg'
 
 const NewsLetterSignUpForm = () => {
   return (
@@ -19,7 +20,9 @@ const NewsLetterSignUpForm = () => {
                 <button className='subscribe'>Subscribe to monthly newsletter</button>
 
             </div>
-            <div className="second-container"></div>
+            <div className="second-container">
+                <img src={SignUpIllustration} alt="sign up illustration" />
+            </div>
         </div>
     </main>
   )
